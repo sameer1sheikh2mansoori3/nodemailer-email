@@ -1,0 +1,21 @@
+{
+  "name": "onenew",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "predev": "tsc",
+    "dev": "nodemon dist/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "nodemailer": "^6.9.15"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/nodemailer": "^6.4.16"
+  }
+}
